@@ -51,9 +51,7 @@ jobs:
             tag: "rawhide"
           - image: "opensuse"
             tag: "latest"
-          - image: "docker-ubuntu-systemd"
-            tag: "latest"
-          - image: "docker-ubuntu-systemd"
+          - image: "docker-ubuntu-systemd"   # TODO: check on ubuntu latest / Unable to start service coturn: Job for coturn.service failed because a timeout was exceeded
             tag: "bionic"
     steps:
       - name: checkout

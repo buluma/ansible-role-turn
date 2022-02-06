@@ -33,8 +33,6 @@ molecule:
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 testing:
@@ -60,8 +58,6 @@ testing:
       - image: "fedora-systemd"
         tag: "rawhide"
       - image: "opensuse"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
