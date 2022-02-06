@@ -1,0 +1,10 @@
+---
+- name: converge
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: ansible-role-turn
+      turn_listening_ip: "0.0.0.0"
+      turn_external_ip: "1.2.3.4"
