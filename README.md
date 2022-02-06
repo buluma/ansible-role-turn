@@ -4,7 +4,7 @@ Install and configure a (co) turn server on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-turn/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-turn/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-turn/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-turn)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/turn)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/turn)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/releases/)|
+|[![github](https://github.com/buluma/ansible-role-turn/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-turn/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-turn/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-turn)|[![quality](https://img.shields.io/ansible/quality/57949)](https://galaxy.ansible.com/buluma/turn)|[![downloads](https://img.shields.io/ansible/role/d/57949)](https://galaxy.ansible.com/buluma/turn)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
