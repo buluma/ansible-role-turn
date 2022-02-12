@@ -33,8 +33,6 @@ molecule:
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "focal"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 testing:
@@ -62,8 +60,6 @@ testing:
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "focal"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 role_testing:
@@ -90,8 +86,6 @@ role_testing:
         tag: "rawhide"
       - image: "opensuse"
         tag: "latest"
-      - image: "docker-ubuntu-systemd"
-        tag: "focal"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
@@ -121,7 +115,5 @@ role_testing_live:
         tag: "rawhide"
       - image: "opensuse"
         tag: "latest"
-      - image: "docker-ubuntu-systemd"
-        tag: "focal"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"

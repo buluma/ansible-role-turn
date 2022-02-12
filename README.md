@@ -93,7 +93,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |debian|all|
 |fedora|all|
 |opensuse|all|
-|ubuntu|focal, bionic|
+|ubuntu|bionic|
 
 The minimum version of Ansible required is 2.10, tests have been done to:
 
