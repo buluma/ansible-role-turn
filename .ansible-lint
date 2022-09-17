@@ -12,3 +12,8 @@ exclude_paths:
   - ./.cache
   - ./.github
   - ./requirements.yml
+
+warn_list:
+  - jinja
+  - no-handler
+  - command-instead-of-module
