@@ -13,7 +13,8 @@ exclude_paths:
   - ./.github
   - ./requirements.yml
 
-warn_list:
-  - jinja
-  - no-handler
-  - command-instead-of-module
+skip_list:
+  - yaml[truthy]
+
+enable_list:
+  - name[prefix]
