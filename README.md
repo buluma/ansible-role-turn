@@ -2,9 +2,9 @@
 
 Install and configure a (co) turn server on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-turn/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-turn/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-turn/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-turn)|[![quality](https://img.shields.io/ansible/quality/57949)](https://galaxy.ansible.com/buluma/turn)|[![downloads](https://img.shields.io/ansible/role/d/57949)](https://galaxy.ansible.com/buluma/turn)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-turn/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-turn/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-turn/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-turn)|[![downloads](https://img.shields.io/ansible/role/d/4865)](https://galaxy.ansible.com/buluma/turn)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-turn.svg)](https://github.com/buluma/ansible-role-turn/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
