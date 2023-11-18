@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-turn/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.0.7...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#13](https://github.com/buluma/ansible-role-turn/issues/13)
+- Update action [\#12](https://github.com/buluma/ansible-role-turn/issues/12)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-turn/tree/1.0.7) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.0.6...1.0.7)
