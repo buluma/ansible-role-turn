@@ -26,8 +26,6 @@ molecule:
         tag: "latest"
       - image: "fedora-systemd"
         tag: "rawhide"
-      - image: "docker-opensuse-systemd"
-        tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
