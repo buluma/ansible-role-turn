@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-turn/tree/HEAD)
+## [1.0.8](https://github.com/buluma/ansible-role-turn/tree/1.0.8) (2023-12-30)
 
-[Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.0.7...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.0.7...1.0.8)
 
 **Closed issues:**
 
