@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.turn
@@ -29,8 +29,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - role: buluma.bootstrap
@@ -48,17 +48,17 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for turn
 
 turn_listening_port: 3478
-turn_fingerprint: yes
-turn_lt_cred_mech: no
-turn_use_auth_secret: yes
+turn_fingerprint: true
+turn_lt_cred_mech: false
+turn_use_auth_secret: true
 turn_static_auth_secret: 96ef8dbed1ba36132d9cccfa608d1f90f879d7fb38cb5c18
 turn_realm: nextcloud.meinit.nl
 turn_total_quota: 100
 turn_bps_quota: 0
 turn_stale_nonce: 600
-turn_no_loopback_peers: yes
-turn_no_multicast_peers: yes
-turn_simple_log: yes
+turn_no_loopback_peers: true
+turn_no_multicast_peers: true
+turn_simple_log: true
 turn_cli_password: 5S4QtTbkC2tzJj4jRKePZJlmCVU3ljnG
 turn_server_name: "{{ ansible_fqdn }}"
 turn_listening_ip: "{{ ansible_default_ipv4.address }}"
