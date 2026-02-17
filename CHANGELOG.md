@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-turn/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-turn/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Update action [\#15](https://github.com/buluma/ansible-role-turn/issues/15)
+- rebuild action [\#14](https://github.com/buluma/ansible-role-turn/issues/14)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-turn/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.2.0...24.3.31)
