@@ -21,7 +21,7 @@
 - name: Enable coturn
   ansible.builtin.lineinfile:
     path: /etc/default/coturn
-    regexp: '^TURNSERVER_ENABLED='
+    regexp: "^TURNSERVER_ENABLED="
     line: "TURNSERVER_ENABLED=1"
   when:
     - ansible_distribution_release == "bionic"

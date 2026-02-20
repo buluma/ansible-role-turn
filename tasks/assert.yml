@@ -86,8 +86,7 @@
 - name: assert | Test if turn_lt_cred_mech and turn_use_auth_secret are exclusive
   ansible.builtin.assert:
     that:
-      - (turn_lt_cred_mech and not turn_use_auth_secret) or
-        (not turn_lt_cred_mech and turn_use_auth_secret)
+      - (turn_lt_cred_mech and not turn_use_auth_secret) or (not turn_lt_cred_mech and turn_use_auth_secret)
     quiet: true
 
 - name: assert | Test if turn_cli_password is set correctly

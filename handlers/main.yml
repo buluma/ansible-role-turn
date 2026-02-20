@@ -1,5 +1,4 @@
 ---
-
 # handlers file for turn
 
 - name: Restart turn
