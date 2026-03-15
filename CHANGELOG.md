@@ -9,6 +9,10 @@
 - Update action [\#15](https://github.com/buluma/ansible-role-turn/issues/15)
 - rebuild action [\#14](https://github.com/buluma/ansible-role-turn/issues/14)
 
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#28](https://github.com/buluma/ansible-role-turn/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-turn/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-turn/compare/1.2.0...24.3.31)
