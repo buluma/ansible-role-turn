@@ -24,7 +24,7 @@
     regexp: "^TURNSERVER_ENABLED="
     line: "TURNSERVER_ENABLED=1"
   when:
-    - ansible_distribution_release == "bionic"
+    - ansible_facts.distribution_release == "bionic"
 
 - name: Start turn
   ansible.builtin.service:

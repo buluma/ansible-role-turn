@@ -9,7 +9,7 @@ _turn_configuration:
   RedHat: /etc/coturn/turnserver.conf
   Suse: /etc/cotrun/turnserver.conf
 
-turn_configuration: "{{ _turn_configuration[ansible_os_family] | default(_turn_configuration['default']) }}"
+turn_configuration: "{{ _turn_configuration[ansible_facts.os_family] | default(_turn_configuration['default']) }}"
 
 turn_service: coturn
 
@@ -18,5 +18,5 @@ _turn_pidfile:
   RedHat-7: /run/coturn/turnserver.pid
 
 turn_pidfile:
-  "{{ _turn_pidfile[ansible_os_family ~ '-' ~ ansible_distribution_major_version ] | default(_turn_pidfile[ansible_os_family] | default(_turn_pidfile['default']
+  "{{ _turn_pidfile[ansible_facts.os_family ~ '-' ~ ansible_facts.distribution_major_version ] | default(_turn_pidfile[ansible_facts.os_family] | default(_turn_pidfile['default']
   )) }}"
