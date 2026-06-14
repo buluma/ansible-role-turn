@@ -15,5 +15,5 @@ turn_no_multicast_peers: true
 turn_simple_log: true
 turn_cli_password: 5S4QtTbkC2tzJj4jRKePZJlmCVU3ljnG
 turn_server_name: "{{ ansible_facts['fqdn'] }}"
-turn_listening_ip: "{{ ansible_default_ipv4.address }}"
-turn_external_ip: "{{ ansible_default_ipv4.address }}"
+turn_listening_ip: "{{ ansible_facts['default_ipv4'].address }}"
+turn_external_ip: "{{ ansible_facts['default_ipv4'].address }}"
