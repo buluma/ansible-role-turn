@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-turn/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-turn/compare/26.6.0...HEAD)
+
+**Closed issues:**
+
+- check opensuse @buluma [\#8](https://github.com/buluma/ansible-role-turn/issues/8)
+- check on ubuntu latest / Unable to start service coturn: Job for coturn.service ... [\#2](https://github.com/buluma/ansible-role-turn/issues/2)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-turn/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-turn/compare/24.3.31...26.6.0)
