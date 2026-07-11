@@ -32,6 +32,13 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   become: true
   gather_facts: false
 
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo"
+      become: false
+      changed_when: false
+      failed_when: false
+
   roles:
     - role: buluma.bootstrap
     - role: buluma.epel
@@ -60,9 +67,9 @@ turn_no_loopback_peers: true
 turn_no_multicast_peers: true
 turn_simple_log: true
 turn_cli_password: 5S4QtTbkC2tzJj4jRKePZJlmCVU3ljnG
-turn_server_name: "{{ ansible_fqdn }}"
-turn_listening_ip: "{{ ansible_default_ipv4.address }}"
-turn_external_ip: "{{ ansible_default_ipv4.address }}"
+turn_server_name: "{{ ansible_facts['fqdn'] }}"
+turn_listening_ip: "{{ ansible_facts['default_ipv4'].address }}"
+turn_external_ip: "{{ ansible_facts['default_ipv4'].address }}"
 ```
 
 ## [Requirements](#requirements)
@@ -88,14 +95,14 @@ Here is an overview of related roles:
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
+This role has been tested on these [container images](https://hub.docker.com/u/buluma):
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
-|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
-|[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
-|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
+|[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -113,6 +120,3 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-### Get Help
-- Report issues: https://github.com/buluma/ansible-role-turn/issues/new
-- See docs: https://docs.ansible.com/collection/gallery/ansible-role-turn
