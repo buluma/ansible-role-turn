@@ -17,6 +17,5 @@ _turn_pidfile:
   default: /var/run/coturn/turnserver.pid
   RedHat-7: /run/coturn/turnserver.pid
 
-turn_pidfile:
-  "{{ _turn_pidfile[ansible_facts['os_family'] ~ '-' ~ ansible_facts['distribution_major_version'] ] | default(_turn_pidfile[ansible_facts['os_family']] | default(_turn_pidfile['default']
-  )) }}"
+turn_pidfile: "{{ _turn_pidfile[ansible_facts['os_family'] ~ '-' ~ ansible_facts['distribution_major_version'] ] | default(_turn_pidfile[ansible_facts['os_family']]
+  | default(_turn_pidfile['default'] )) }}"
